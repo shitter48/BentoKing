@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>粗大便當</title>
+    <link rel="stylesheet" href="./bentoking.css">
+</head>
+
+<body>
+    <div id="quiz-container">
+        <h1>便當知識王</h1>
+        <h3>請答出以下便當有幾個主菜？</h3>
+        <div id="quiz-content">
+            <img id="question-image" src="" alt="">
+            <div class="options">
+                <button class="option" onclick="checkAnswer(0)"></button>
+                <button class="option" onclick="checkAnswer(1)"></button>
+                <button class="option" onclick="checkAnswer(2)"></button>
+                <button class="option" onclick="checkAnswer(3)"></button>
+            </div>
+        </div>
+        <p>題目: <span id="question-number">1</span>/10</p>
+        <p>得分: <span id="score">0</span></p>
+    </div>
+    <script src="./bentoking.js">
+    </script>
+</body>
+
+</html>
